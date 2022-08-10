@@ -15,9 +15,8 @@ public abstract class Animal {
 		this.kinds = kinds;
 	}
 
-	void speak() {
-		
-	}
+	public abstract void speak();
+
 	@Override
 	public String toString() {
 		
